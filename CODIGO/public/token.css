@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+    --color-dark-background: #121212;
+    --color-light-background: #1e1e1e;
+    --color-accent: #f39c12;
+    --color-ever: #1008a5c9;
+    --color-light-text: #e0e0e0;
+    --color-dark-text: #333;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-dark-background);
+    color: var(--color-light-text);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#token_container {
+    background-color: var(--color-light-background);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#token_container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--color-accent);
+}
+
+#token {
+    width: 90%;
+    height: 90px;
+    margin: 10px;
+    background-color: var(--color-dark-background);
+    color: var(--color-light-text);
+    border: 1px solid var(--color-accent);
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+#copy_button {
+    background-color: var(--color-accent);
+    color: var(--color-light-text);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#copy_button:hover {
+    background-color: #e67e22;
+}
+
+#login_link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: var(--color-ever);
+    color: var(--color-light-text);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#login_link:hover {
+    text-decoration: underline;
+}
