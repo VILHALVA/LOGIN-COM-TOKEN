@@ -68,16 +68,16 @@ Este sistema é um exemplo de aplicação web usando Node.js, Express, e MySQL p
 
 8. **Visualize e Copie o Token:**
    - Na página de exibição do token, você verá o token gerado em um campo de texto.
-   - Use o botão **"COPIAR TOKEN"** para copiar o token para a área de transferência.
+   - Use o botão **"COPIAR"** para copiar o token para a área de transferência.
 
 9. **Navegue para a Página de Login:**
-   - Abaixo do token, há um botão chamado `LOGIN`, clique nele.
+   - Abaixo do token, há um botão chamado `FAZER LOGIN`, clique nele.
 
 10. **Insira o Token:**
    - Cole o token copiado no campo de entrada disponível na página de login.
 
 11. **Envie o Token para Verificação:**
-   - Clique no botão **"LOGIN"**.
+   - Clique no botão **"VALIDAR TOKEN"**.
    - O sistema enviará o token para o servidor para verificação.
 
 12. **Receba a Resposta do Servidor:**
