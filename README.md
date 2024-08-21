@@ -1,5 +1,5 @@
 # LOGIN COM TOKEN
-👨‍🏫FORMULARIO CADASTRO E LOGIN COM USO DE TOKEN.
+👨‍🏫FORMULARIO DE CADASTRO E LOGIN COM USO DE TOKEN.
 
 <img src="./IMAGENS/FOTO_1.png" align="center" width="500"> <br>
 <img src="./IMAGENS/FOTO_2.png" align="center" width="500"> <br>
